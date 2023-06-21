@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Third JS_Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <input id="input" type="text" class="input" />
+      </div>
+      <div>
+        <div class="row">
+          <button onclick="btnclick(this.innerText)">1</button>
+          <button onclick="btnclick(this.innerText)">2</button>
+          <button onclick="btnclick(this.innerText)">3</button>
+          <button onclick="btnclick(this.innerText)">4</button>
+        </div>
+        <div class="row">
+          <button onclick="btnclick(5)">5</button>
+          <button onclick="btnclick(this.innerText)">6</button>
+          <button onclick="btnclick(this.innerText)">7</button>
+          <button onclick="btnclick(this.innerText)">8</button>
+        </div>
+        <div class="row">
+          <button onclick="btnclick(this.innerText)">9</button>
+          <button onclick="btnclick(this.innerText)">0</button>
+          <button onclick="btnclick(this.innerText)">+</button>
+          <button onclick="btnclick(this.innerText)">-</button>
+        </div>
+        <div class="row">
+          <button onclick="btnclick(this.innerText)">.</button>
+          <button onclick="btnclick(this.innerText)">*</button>
+          <button onclick="btnclick(this.innerText)">/</button>
+          <button onclick="equalbtn()">=</button>
+        </div>
+        <div class="row">
+          <button onclick="cancel()">C</button>
+          <button onclick="deletefunc()">delete</button>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
